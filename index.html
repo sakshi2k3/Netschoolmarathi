@@ -1,0 +1,615 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--css link-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Font awesome link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--bootstrap css link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!--google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!--aos links-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <title>नेटस्कूल - प्रज्ञा ॲकॅडमी</title>
+  </head>
+  <body id="overFlow">
+    <!--============================================== PopUp form =========================================== -->
+
+    
+     <!-- <div  id="popUpMain" style="display: none">
+      <div id="popUp" class="w-50 h-50">
+        <div class="popUp text-center">
+         <p class="text-center h3 mt-3">
+           <span class="offerpara px-2 ">
+               अधिक माहिती मिळविण्यासाठी आमच्या वेबिनारमध्ये सामील व्हा</span
+             > 
+             <br> <br>
+   <img src="https://t3.ftcdn.net/jpg/00/66/60/18/240_F_66601851_z2U7lTJ5H5D6MLXiEY5Aap941IsSLU0B.jpg" alt="" height="100" width="100">
+   <h1 id="" class="Textshadow" style="color: #0e47a1;"><i class="fa-solid fa-calendar-days "></i> 13 july 2023 2 PM</h1>
+ 
+   
+   
+   
+   <a href="https://chat.whatsapp.com/Kp3nUj52Wro7FI1SDLtOlf" target="_blank" ><button class="btn  btn-primary mt-1"> वेबिनारमध्ये सामील व्हा</button> </a>
+       </p>
+        </div>
+     </div> -->
+    
+
+     <div id="popup" class="popup text-center">
+      <div class="popup-content text-center">
+      <i class="fa-sharp fa-solid fa-xmark " id="closeButton"></i>
+       
+        <p class="text-center h3 mt-3">
+          <span class="offerpara px-2 " >
+              अधिक माहिती मिळविण्यासाठी आमच्या वेबिनारमध्ये सामील व्हा</span
+            > 
+            <br> <br>
+        <div class="animated-sticker">
+          
+          <img src="https://cdn-icons-gif.flaticon.com/10828/10828146.gif" alt="" height="90" width="90">
+        </div>
+      
+        <h4 class="text-black Textshadow h4" id="webinarDate"><i class="fa-solid fa-calendar-days "></i>  बुधवारी - दु. 02.30 pm</h4>
+        <!-- <h4 class="text-black Textshadow mt-2 h4"><i class="fa-solid fa-clock"></i> 2 PM</h4> -->
+        <h4 class="text-black Textshadow h4 mt-2" id="webinarDate"><i class="fa-solid fa-calendar-days "></i>  गुरुवारी- सायं. 05.30 pm</h4>
+        <h4 class="text-black Textshadow h4 mt-2" id="webinarDate"><i class="fa-solid fa-calendar-days "></i>  शनिवार- रात्री 08.00 pm</h4>
+        
+        <a href="https://chat.whatsapp.com/Kp3nUj52Wro7FI1SDLtOlf" target="_blank" ><button class="btn  popupbtn mt-1">  सामील व्हा</button> </a>
+      </div>
+    </div>
+    
+    
+    <!--============================================== Navbar =========================================== -->
+
+    <nav class="navbar fixed-top justify-content-around d-flex " id="navbar">
+      <div class="navbar-brand">
+        <img src="image/netlogo.png" alt="" />
+      </div>
+      <h6 class="h1 heading text-white">नेटस्कूल - प्रज्ञा ॲकॅडमी </h6>
+
+      <a href="https://chat.whatsapp.com/Kp3nUj52Wro7FI1SDLtOlf" target="_blank" ><button class="btn  btn-primary mt-3"> वेबिनारमध्ये सामील व्हा</button> </a>
+    </nav>
+
+    <!--============================================== Banner =========================================== -->
+    <div class="container-fluid banner pt-5 w-100">
+      <div class="container pt-5" data-aos="zoom-in">
+        <h1
+          class="text-center h1 text-white mt-3 pt-5 mb-3"
+          style="color: #0e47a1; font-family: cursive"
+          data-aos="fade-right"
+        >
+         
+        दरमहा रू. <span style="font-weight: bolder;">40,000</span> पर्यंत कमवा.
+        </h1>
+        
+        <h1
+          class="text-center mt-4 h4 fontfamily text-white "
+          style="color: #0e47a1"
+          data-aos="fade-right"
+        >
+        शिका आणि कमवा.
+        </h1>
+        <h1 class="h1 text-center mt-4 " style="color: #00efff;">स्वतःचे 'वैदिक मॅथ्स सेंटर' सुरु करा</h1>
+       <h2 class="text-white text-center h4">(ऑनलाईन / क्लासरूम क्लासेस)</h2>
+       
+        <!--============================================== Webinar date and time =========================================== -->
+        <div class=" text-center py-5 bannergalaxy">
+            <p class="text-center">
+                <span class="offerpara px-2 ">
+                    अधिक माहिती मिळविण्यासाठी आमच्या वेबिनारमध्ये सामील व्हा</span
+                  > 
+                  <br> <br>
+
+      <h2 class="text-white"><i class="fa-solid fa-calendar-days "></i> बुधवारी - दु. 02.30 pm </h2>
+      <h2 class="text-white"><i class="fa-solid fa-calendar-days "></i> गुरुवारी- सायं. 05.30 pm </h2>
+      <h2 class="text-white"><i class="fa-solid fa-calendar-days "></i> शनिवार- रात्री 08.00 pm </h2>
+      <!-- <h1 class="text-white mt-4"><i class="fa-solid fa-clock"></i> 2 PM</h1> -->
+      <a href="https://chat.whatsapp.com/Kp3nUj52Wro7FI1SDLtOlf" target="_blank" ><button class="btn  btn-primary mt-3" > वेबिनारमध्ये सामील व्हा</button> </a>
+            </p>
+         
+      </div>
+    </div>
+    </div>
+    <!--container fluid end-->
+    <!--================================================ new section  ==============================================================-->
+    <div class="container-fluid  mt-2 eligible pb-5">
+      <div class="container pt-5 ">
+        <h4 class="h4 text-center " style="font-weight: bold;">
+          १५ वर्षाचा अनुभव असलेली </h4>
+        <div style=" color: white; background-color: green;" class="text-center mt-4 py-1">
+            <h1  class="text-center">नेटस्कूल - प्रज्ञा ॲकॅडमी</h1>
+        </div>
+       
+          <h5 class="text-center mt-3" style="color: red; font-weight: bold;">आपणास फ्रँचायझी पार्टनर म्हणून निमंत्रित करीत आहोत.</h5>
+   <div class="row mt-5">
+    <div class="col-md-6  eli-box2 " data-aos="zoom-in">
+        <div class="mt-4">
+            <h2>पहिल्या १०० महिलांना संधी.</h2>
+          </div>
+          <ul class="py-5">
+           
+           
+            <li> कोणतीही फ्रँचायझी फी नाही....</li>
+            <li>कोणतीही रॉयल्टी नाही..</li>
+            <li>
+                टिचर ट्रेनिंग (अत्यल्प फी मध्ये समजेपर्यंत)
+            </li>
+            <li>मोफत मार्केटिंग ट्रेनिंग..</li>
+            <li>कोणतीही मोठी गुंतवणूक नाही...</li>
+            <li>संपूर्ण सपोर्ट.</li>
+          </ul>
+       
+    </div>
+    <div class="col-md-6 mt-4 px-4" style="text-align: center;" data-aos="zoom-in">
+      <iframe width="100%" height="300" src="https://www.youtube.com/embed/oLiffZBw09M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+   </div>
+      </div>
+    </div> 
+
+    <!--===================================== वैदिक मॅथ्स टिचर ट्रेनिंग कोर्स कोण करू शकते. =====================================-->
+        <div class="container-fluid mt-5">
+          <div class="container">
+            <h1 class="h1 thick-underline2 text-center" style="color: #0e47a1">
+              वैदिक मॅथ्स टिचर ट्रेनिंग कोर्स कोण करू शकते.
+            </h1>
+            <div class="row mt-5">
+              <div class="col-md-2"></div>
+              <div class="col-md-8 box2 py-5 px-5 " data-aos="zoom-in">
+               <h1 class="text-white h3">🤝 आपण जर शिक्षित महिला/ पुरुष असाल.</h1>
+               <h1 class="text-white h3">🤝 आपण एक्स्ट्रा इन्कम च्या शोधात असाल.</h1>
+               <h1 class="text-white h3">🤝 आपण क्लासेस चालवीत असाल.</h1>
+               <h1 class="text-white h3">🤝 क्लासेस सुरु करण्याच्या विचारात असाल.</h1>
+               <h1 class="text-white h3">🤝 आपण चांगल्या नोकरीच्या शोधात असाल.</h1>
+               <h1 class="text-white h3">🤝 आपण शिक्षक असाल.</h1>
+              </div>
+              <div class="col-md-2"></div>
+            </div>
+          </div>
+        </div>
+
+    <!--===================================== कोर्स' केल्यानंतर चे फायदे =====================================-->
+  
+    <div class="container-fluid  mt-3">
+      <div class="container py-4 ">
+        <div class="row">
+        <h1 class="h1 text-center mt-5" style="color: #0e47a1;" >
+          आम्ही आपल्याला वैदिक गणित शिकवायला शिकवू.
+          </h1>
+          <h1 class="h4 text-center mt-1" style="color: red; font-weight: bold;">
+            पुढे आपण आयुष्यभर शिकवून पैसे मिळवा.
+            </h1>
+        <h1 class="h1 text-center mt-4 Textshadow" style="color: #0e47a1;">
+          सर्टिफाइड वैदिक गणित टिचर ट्रेनिंग कोर्स केल्यानंतर चे फायदे
+        </h1>
+        <div class="col-md-6 mt-5 benefit1" data-aos="zoom-in">
+             <div class="benefitsbox  py-3 px-5 ">
+              <h5 class="h5 "><i class="fa-solid fa-check" ></i> आपण आपल्या वेळेप्रमाणे वैदिक गणितचे क्लासेस सुरु करू शकता.(आठवड्यातून दोनदा/ तीनदा/ दररोज)</h5>
+             </div>
+             <div class="benefitsbox  py-3 mt-4 px-5">
+              <h5 class="h5 "><i class="fa-solid fa-check" ></i> ऑनलाईन व ऑफलाईन क्लासेस सुरु करू शकता.</h5>
+             </div>
+             <div class="benefitsbox  py-3 mt-4 px-5">
+              <h5 class="h5 "><i class="fa-solid fa-check" ></i>  घरातून क्लासेस सुरु करू शकता.</h5>
+             </div>
+             <div class="benefitsbox  py-3 mt-4 px-5">
+              <h5 class="h5 "><i class="fa-solid fa-check" ></i> दुसऱ्या क्लासेस बरोबर असोसिएट्स होऊन क्लासेस सुरु करू शकता.</h5>
+             </div>
+             <div class="benefitsbox  py-3 mt-4 px-5">
+              <h5 class="h5 "><i class="fa-solid fa-check" ></i> शाळेबरोबर असोसिएट्स होऊन क्लासेस सुरु करू शकता.</h5>
+             </div>
+             <div class="benefitsbox  py-3 mt-4 px-5">
+              <h5 class="h5 "><i class="fa-solid fa-check" ></i> शाळेमध्ये वैदिक गणित शिक्षक म्हणून नोकरी करू शकता.</h5>
+             </div>
+             <div class="benefitsbox  py-3 mt-4 px-5">
+              <h5 class="h5 "><i class="fa-solid fa-check" ></i>  ५, ७, १२ दिवसांची कार्यशाळा चालवू शकता.</h5>
+             </div>
+             
+        </div>
+        <div class="col-md-6 mt-5  benefit2" data-aos="zoom-in">
+          <div class="benefitsbox  py-3 px-5 ">
+            <h5 class="h5 "><i class="fa-solid fa-check" ></i> बेसिक आणि ऍडव्हान्स कोर्स सुरु करू शकता.(एक महिना / दोन महिने)
+              </h5>
+           </div>
+           <div class="benefitsbox  py-3 mt-4 px-5">
+            <h5 class="h5 "><i class="fa-solid fa-check" ></i> कमी वेळेमध्ये हा कोर्स संपतो व चांगले पैसे मिळतात. </h5>
+           </div>
+           <div class="benefitsbox  py-3 mt-4 px-5">
+            <h5 class="h5 "><i class="fa-solid fa-check" ></i> घर/ नोकरी सांभाळून क्लासेस सुरु करू शकता.</h5>
+           </div>
+           <div class="benefitsbox  py-3 mt-4 px-5">
+            <h5 class="h5 "><i class="fa-solid fa-check" ></i> आपल्या जवळपास स्पर्धक नाहीत.(असेलच तर एखाद-दुसरा)</h5>
+           </div>
+           <div class="benefitsbox  py-3 mt-4 px-5">
+            <h5 class="h5 "><i class="fa-solid fa-check" ></i> या कोर्सला चौथी ते दहावी पर्यंतची मुले एकत्र शिकणार आहेत.
+              (वर्गवार बॅचेस करायच्या नाहीत.)
+              </h5>
+           </div>
+           <div class="benefitsbox  py-3 mt-4 px-5">
+            <h5 class="h5 "><i class="fa-solid fa-check" ></i> कोणत्याही वर्गाची, कोणत्याही बोर्डाची व कोणत्याही माध्यमाचे विद्यार्थी प्रवेश घेऊ शकणार आहेत.</h5>
+           </div>
+           <div class="benefitsbox  py-3 mt-4 px-5">
+            <h5 class="h5 "><i class="fa-solid fa-check" ></i> मिळालेल्या ज्ञानावर आयुष्यभर पैसे मिळवू शकता..</h5>
+           </div>
+        </div>
+      </div>
+     
+             
+       
+      </div>
+    </div>
+   
+     <div class="container py-5">
+      <h4 class="h4 text-center " style="font-weight: bold;">
+        १५ वर्षाचा अनुभव असलेली </h4>
+      <div style=" color: white; background-color: green;" class="text-center mt-4 py-1">
+          <h1  class="text-center">नेटस्कूल - प्रज्ञा ॲकॅडमी</h1>
+      </div>
+     
+        <h5 class="text-center mt-3" style="color: red; font-weight: bold;">आपणास फ्रॅन्चायझी पार्टनर म्हणून निमंत्रित करीत आहोत.</h5>
+   
+      <div class="row mt-4">
+        <div class="col-md-6 sixbenefits" data-aos="zoom-in">
+          <h1 class="h2 text-center  mt-5 Textshadow" style="color: #0e47a1;" >
+      
+            बरोबर आणखी ६ प्रकारे पैसे कमवू शकता.
+              
+              </h1>
+             
+             
+              <div class="row moreways px-4 mt-3 d-flex justify-content-around">
+                <div class="col-md-3 ml-5 firstbox pt-3">
+                 <h5 class="h6 text-white">फ्रॅन्चायझी पार्टनर म्हणुन खालील प्रकारे कमावू शकता</h5>
+                 <i class="fa-solid fa-arrow-right text-white"></i>
+                </div>
+                <div class="col-md-3 ml-5">
+               <div class="card">
+               
+                  <img src="https://cdn-icons-gif.flaticon.com/10971/10971333.gif" alt="Online Classes" class="h-50 w-50 img-fluid" >
+                  
+                <div class="card-body">
+                  <h6 class="h5">ऑनलाईन क्लासेस </h6>
+                </div>
+               </div>
+                </div>
+                <div class="col-md-3 ml-5">
+                  <div class="card">
+                  
+                     <img src="https://cdn-icons-gif.flaticon.com/6454/6454117.gif" alt="Online Classes" class="h-50 w-50 img-fluid" >
+                     
+                   <div class="card-body">
+                     <h6 class="h5">ऑफलाईन क्लासेस</h6>
+                   </div>
+                  </div>
+                   </div>
+                
+              </div>
+              <div class="row moreways px-4 mt-5 d-flex justify-content-around">
+                <div class="col-md-3 ml-5">
+                  <div class="card">
+                  
+                     <img src="https://cdn-icons-gif.flaticon.com/9828/9828947.gif" alt="Online Classes" class="h-50 w-50 img-fluid" >
+                     
+                   <div class="card-body">
+                     <h6 class="h5">व्हिडिओ कोर्सेस </h6>
+                   </div>
+                  </div>
+                   </div>
+                <div class="col-md-3 ml-5">
+               <div class="card">
+               
+                  <img src="https://cdn-icons-gif.flaticon.com/9284/9284520.gif" alt="Online Classes" class="h-50 w-50 img-fluid" >
+                  
+                <div class="card-body">
+                  <h6 class="h5">
+                    स्पर्धा परीक्षा ट्रेनिंग</h6>
+                </div>
+               </div>
+                </div>
+                <div class="col-md-3 ml-5">
+                  <div class="card">
+                  
+                     <img src="https://cdn-icons-gif.flaticon.com/10303/10303095.gif" alt="Online Classes" class="h-50 w-50 img-fluid" >
+                     
+                   <div class="card-body">
+                     <h6 class="h5">
+                      रेफरल प्रोग्राम</h6>
+                   </div>
+                  </div>
+                   </div>
+                
+              </div>
+              <p class="pl-3 mt-4">
+                <i class="fa-solid fa-arrow-right text-center"></i> आत्ता नाही तर कधीच नाही.
+               
+              </p>
+              <p class="pl-3 mt-3">
+                <i class="fa-solid fa-arrow-right text-center"></i> आजच या संधीचा फायदा घ्या व कमविण्यासाठी सज्ज व्हा.
+               
+              </p>
+              <p class="pl-3 mt-3">
+                <i class="fa-solid fa-arrow-right text-center"></i> समजून घ्या व्यावसायिक संधी.
+               
+              </p>
+            
+            </div>
+       <div class="col-md-6  ">
+          <!--============================================== Webinar date and time =========================================== -->
+          <div class=" text-center py-5 bannergalaxy" data-aos="zoom-in">
+            <h3 class="h4 text-center " style="color: red; font-weight: bold;">एकत्र काम करू.. एकत्र कमवू.</h3>
+            <h3 class="h3 text-center mt-5" style="color: green; font-weight: bold;">पहिल्या १०० महिलांना संधी.</h3>
+            <h3 class="h4 text-center mt-3" style="color: red; font-weight: bold;">हि स्पेशल ऑफर फक्त वेबिनार मध्ये उपस्थित राहणाऱ्यांसाठी.</h3>
+          <!--============================================== webinar date and time =========================================== -->
+            <p class="text-center h3 mt-5">
+                <span class="offerpara px-2 ">
+                    अधिक माहिती मिळविण्यासाठी आमच्या वेबिनारमध्ये सामील व्हा</span
+                  > 
+                  <br> <br>
+   <img src="https://t3.ftcdn.net/jpg/00/66/60/18/240_F_66601851_z2U7lTJ5H5D6MLXiEY5Aap941IsSLU0B.jpg" alt="" height="150" width="150">
+      <h2 class="Textshadow" style="color: #0e47a1;"><i class="fa-solid fa-calendar-days "></i> बुधवारी - दु. 02.30 pm</h2>
+      <!-- <h1 class="Textshadow mt-4" style="color: #0e47a1;"><i class="fa-solid fa-clock"></i> 2 PM</h1> -->
+      <h2 class="Textshadow" style="color: #0e47a1;"><i class="fa-solid fa-calendar-days "></i> गुरुवारी- सायं. 05.30 pm</h2>
+      <h2 class="Textshadow" style="color: #0e47a1;"><i class="fa-solid fa-calendar-days "></i> शनिवार- रात्री 08.00 pm</h2>
+    <img src="" alt="">
+      
+      <a href="https://chat.whatsapp.com/Kp3nUj52Wro7FI1SDLtOlf" target="_blank" ><button class="btn  btn-primary mt-3"> वेबिनारमध्ये सामील व्हा</button> </a>
+            </p>
+         
+      </div>
+       </div>
+       
+      </div>
+        <!--=================================================demo section  ==================================================-->
+      <div class="row mt-5" data-aos="zoom-in">
+        <h1 class="h1  thick-underline text-center  Textshadow" style="color: #0e47a1;">
+        
+           वैदिक मॅथ्स डेमो 
+      
+            </h1>
+        <div class="col-md-3"></div>
+        
+          <div class="col-md-6 text-center ">
+          
+            <iframe width="100%" height="315" style="box-shadow: 4px 4px 4px gray;" class="mt-4" src="https://www.youtube.com/embed/ITzkProTrvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+     </div>
+     
+
+      <!--============================================== slider =========================================== -->
+
+      <div class="container-fluid eligible mt-5">
+        <div class="container pt-4">
+          <h1 class="h1 text-center thick-underline2 mt-4 Textshadow" style="color: #0e47a1;">
+            विद्यार्थी आणि फ्रॅन्चायझी प्रतिक्रीया
+          </h1>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 py-4">
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/ck1yGNOPkuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                  <div class="carousel-item">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/71bXvGoPE8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                  <div class="carousel-item">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Hku0I34kCwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon carouselButton" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next " href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon carouselButton" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <!-- </div>
+          </div> -->
+      <!--============================================== Teacher profile =========================================== -->
+   
+
+    <!-- <div class="container-fluid teacherbody ">
+     
+      <div class="container"> -->
+        <h1 class="h1 thick-underline text-center mt-5  Textshadow" style="color: #0e47a1">
+      
+          ट्रेनर प्रोफाइल
+        </h1>
+        <div class="row py-5 teacherbody">
+          <div
+            class="col-md-6 aboutborder order-2 order-lg-1"
+            data-aos="zoom-in"
+          >
+            <h1 class="h1"><span>
+              प्रा. रीना घाग</span></h1>
+            <h5 class="h5">
+              (बी.एस्सी. बी.एड/ मास्टर ट्रेनर, नेटस्कूल - प्रज्ञा ॲकॅडमी)
+            </h5>
+
+            <h5 class="h5">
+              <i class="fa-solid fa-star mt-4"></i> IIT प्रमाणित मास्टर ट्रेनर.
+              
+            </h5>
+            <h5 class="h5">
+              <i class="fa-solid fa-star mt-4"></i>  
+              १५ वर्षाचा ट्रेनिंगचा अनुभव
+            </h5>
+            <h5 class="h5">
+              <i class="fa-solid fa-star mt-4"></i> ४५०+ वैदिक गणिताच्या कार्यशाळा
+              
+            </h5>
+            <h5 class="h5">
+              <i class="fa-solid fa-star mt-4"></i>१०००+ शिक्षकांना प्रशिक्षण
+            
+            </h5>
+            <h5 class="h5">
+              <i class="fa-solid fa-star mt-4"></i> 
+              ५000 हून अधिक विद्यार्थ्यांना वैदिक गणितांचा फायदा झाला.
+            </h5>
+            
+          </div>
+          <div class="col-md-6 pt-2 pb-5 order-1 order-lg-2" data-aos="zoom-in">
+            <img
+              src="image/teacherImg2.jfif"
+              alt=""
+              class="img-fluid shadowbox"
+            />
+          </div>
+        </div>
+        </div>
+      </div>
+     
+        <!--============================================== connection section =========================================== -->
+    <h1 class="h1 thick-underline text-center mt-5" style="color: #0e47a1">
+      आमचे नेटवर्क
+    </h1>
+    <div class="container-fluid">
+      <div class="container pb-5">
+        <div class="row moreways mt-5 pb-5">
+          <div class="col-md-3 px-3 text-center">
+
+            <div class="card text-center py-3" data-aos="zoom-in">
+              <img src="https://cdn-icons-png.flaticon.com/128/4830/4830734.png" alt="" class="h-25 w-25 img-fluid">
+             
+              <div class="card-body">
+                <h2 style="font-weight: bold"> ६ देश </h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 px-3 text-center">
+            <div class="card py-3" data-aos="zoom-in">
+              <img src="https://cdn-icons-png.flaticon.com/128/1995/1995574.png" alt="" class="h-25 w-25 img-fluid">
+              
+              <div class="card-body">
+                <h2 style="font-weight: bold"> १०००+  टिचर्स </h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 px-3 text-center">
+            <div class="card py-3" data-aos="zoom-in">
+              <img src="https://cdn-icons-png.flaticon.com/128/2995/2995459.png" alt="" class="h-25 w-25 img-fluid">
+             
+              <div class="card-body">
+                <h2 style="font-weight: bold"> ५,०००+ विद्यार्थी </h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 px-3 text-center">
+            <div class="card py-3" data-aos="zoom-in">
+              <img src="https://cdn-icons-png.flaticon.com/128/10936/10936451.png" alt="" class="h-25 w-25 img-fluid">
+             
+              <div class="card-body">
+                <h2 style="font-weight: bold"> १५ वर्षांचा अनुभव </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+   <div class="container-fluid">
+    <div class="container text-center bannergalaxy">
+              <!--============================================== webinar date and time =========================================== -->
+      <p class="text-center h3 mt-3">
+        <span class="offerpara px-2 ">
+            अधिक माहिती मिळविण्यासाठी आमच्या वेबिनारमध्ये सामील व्हा</span
+          > 
+          <br> <br>
+<img src="https://t3.ftcdn.net/jpg/00/66/60/18/240_F_66601851_z2U7lTJ5H5D6MLXiEY5Aap941IsSLU0B.jpg" alt="" height="150" width="150">
+
+
+<h2 class="Textshadow h3" style="color: #0e47a1;"><i class="fa-solid fa-calendar-days "></i> बुधवारी - दु. 02.30 pm</h2>
+<!-- <h1 class="Textshadow mt-4" style="color: #0e47a1;"><i class="fa-solid fa-clock"></i> 2 PM</h1> -->
+<h2 class="Textshadow h3" style="color: #0e47a1;"><i class="fa-solid fa-calendar-days "></i> गुरुवारी- सायं. 05.30 pm</h2>
+<h2 class="Textshadow h3" style="color: #0e47a1;"><i class="fa-solid fa-calendar-days "></i> शनिवार- रात्री 08.00 pm</h2>
+
+
+
+<a href="https://chat.whatsapp.com/Kp3nUj52Wro7FI1SDLtOlf" target="_blank" ><button class="btn  btn-primary mt-3"> वेबिनारमध्ये सामील व्हा</button> </a>
+    </p>
+    </div>
+   </div>
+
+    <a href="https://chat.whatsapp.com/Kp3nUj52Wro7FI1SDLtOlf" target="_blank" class="whatsapp_float"
+      ><i class="fa-brands fa-whatsapp whatsapp-icon"></i
+    ></a>
+    <!--bootstrap script link-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <!--aos js link-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 2000 });
+    </script>
+    <!--javascript link-->
+    <script src="javascript/main.js"></script>
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      // $(document).ready(function () {
+      //   setTimeout(function () {
+      //     $("#popUpMain").css("display", "block");
+      //   }, 1000);
+      // });
+      // $(".submitForm").click(function () {
+      //   $("#popUpMain").css("display", "none");
+      // });
+
+      // Function to display the popup after a certain time
+function showPopup() {
+  const popup = document.getElementById('popup');
+  popup.style.display = 'block';
+  overFlow.style.overflow = 'hidden'
+  
+}
+
+
+// Function to close the popup
+function closePopup() {
+  const popup = document.getElementById('popup');
+  popup.style.display = 'none';
+  overFlow.style.overflow = 'auto';
+}
+
+// Set the timeout to show the popup after 5 seconds (5000 milliseconds)
+setTimeout(showPopup, 1000);
+
+// Close the popup when the close button is clicked
+const closeButton = document.getElementById('closeButton');
+closeButton.addEventListener('click', closePopup);
+
+
+
+
+
+
+    </script>
+  </body>
+</html>

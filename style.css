@@ -1,0 +1,527 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  body{
+    overflow: auto;
+  }
+  
+  
+  nav img {
+    height: 120px;
+    width: 120px;
+  }
+  nav .btn {
+    background-color: #9c28b1;
+    font-size: 30px ;
+    color: white ;
+    transition: 1s ;
+  }
+  nav .btn:hover {
+    border: 4px solid #9c28b1 ;
+    color: #9c28b1 ;
+    transition: 1s ;
+  }
+  nav h6 {
+    font-family: "Ysabeau Infant", sans-serif;
+  }
+  .heading {
+    display: block;
+    color: #0e47a1 !important;
+    font-weight: bold !important;
+  }
+  @media (max-width: 768px) {
+    .heading {
+      display: none;
+    }
+   
+    nav img {
+      height: 70px;
+      width: 75px;
+    }
+    nav .btn {
+      font-size: 15px;
+    }
+   
+  }
+  /* banner section */
+  .banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("https://img.freepik.com/free-photo/young-woman-attending-online-class_23-2148854933.jpg?size=626&ext=jpg&ga=GA1.1.1802003475.1686590369&semt=ais");
+  
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+  }
+  .fontfamily{
+      font-family: "Ysabeau Infant", sans-serif;
+  }
+  .banner p{
+    font-size: 20px;
+    font-weight: bold;
+  
+    text-align: justify;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+  }
+  .btn-primary{
+    background-color: green!important;
+    font-size: 30px !important;
+    color: white !important ;
+    transition: 1s  !important;
+    border: 2px solid green !important;
+    justify-content: center;
+    box-shadow: 4px 4px 8px gray;
+  }
+  .btn-primary:hover{
+    border: 4px solid green!important;
+    color: green !important ;
+    transition: 1s !important ;
+    background: transparent !important;
+  }
+  .thick-underline {
+    position: relative;
+  
+  }
+  
+  .thick-underline::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    width: 50px;
+    height: 4px;
+    background-color: #9c28b1;
+    transform: translateX(-50%);
+  }
+ 
+ 
+  .offerpara{
+    background-color: yellow;
+    color: red;
+   font-size: 30px;
+    
+  }
+  @media(max-width: 500px){
+    .offerpara{
+      background-color: yellow;
+      color: red;
+     font-size: 20px !important;
+      
+    }
+  }
+  @media(max-width: 600px){
+    .banner p {
+      font-size: 15px;
+    
+    }
+  
+    .head2 h6{
+      font-size: 15px !important;
+    }
+   
+    .benefits .card{
+     margin-top: 1.5rem !important;
+     
+    }
+  }
+  .navbgscroll{
+  background-color: #3f3535;
+  }
+  
+  
+  /* About section */
+  
+ 
+  .aboutborder{
+    display: block;
+    border-right: 5px solid green;
+    
+  }
+  @media(max-width : 900px){
+    .aboutborder{
+      border-right: 1px solid transparent !important; 
+      
+      
+    }
+  }
+  .head2 h6 i{
+   font-size: 25px;
+   color: red;
+  }
+  .head2 h6{
+    color: #fff58c;
+    font-size: 24px !important;
+  }
+
+  
+  
+  
+
+  
+  /* teacher section */
+  .teacherbody{
+    background-color: rgba(214, 225, 227, 1);
+  }
+  .shadowbox{
+    box-shadow: 6px 3px 11px gray !important;
+    font-family: "Ysabeau Infant", sans-serif;
+  }
+  .teacherbody h1{
+    font-family: "Ysabeau Infant", sans-serif;
+  }
+  .teacherbody i{
+    font-size: 25px;
+    color: #f9a600;
+  }
+  .teacherbody p{
+    text-align: justify;
+  }
+  
+  .eli-box{
+    border: 2px solid #9c28b1;
+    border-style: dashed;
+    transition: 1s;
+  }
+  .eli-box div{
+    background-color: #9c28b1;
+  }
+  .eli-box div h2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    
+    font-family: "Ysabeau Infant", sans-serif;
+  }
+  .eligible{
+    background-color: rgba(214, 225, 227, 1);
+  }
+  .eli-box ul li{
+    color: #9c28b1;
+    font-size:  20px;
+    font-family: "Ysabeau Infant", sans-serif;
+    font-weight: bold;
+  }
+  
+  .connect{
+    background-color: #0e47a1;
+  }
+  .connect div i{
+    color: white;
+    font-size: xx-large;
+  }
+  .connect div h5{
+    color: white;
+    font-size: 20px;
+    margin-top: 6px;
+  }
+  #popUpMain{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 141, 211, 0.473);
+    z-index: 1001;
+  }
+  #popUp{
+    /* height: 500px;
+    width: 500px; */
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ 
+ 
+  
+  
+  
+  .whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  .whatsapp-icon {
+    margin-top: 16px;
+  }
+  
+  /* for mobile */
+  @media screen and (max-width: 767px){
+    .whatsapp-icon {
+      margin-top: 10px;
+    }
+    .whatsapp_float {
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      right: 10px;
+      font-size: 22px;
+    }
+  }
+  .eligible{
+    /* background-color: rgba(214, 225, 227, 1); */
+    background: linear-gradient(to top, 0% white, 15% white, 30% rgba(214, 225, 227, 1), 100% rgba(214, 225, 227, 1) );
+  }
+  .eli-box2{
+    border: 2px solid #0e47a1;
+    border-style: dashed;
+    transition: 1s;
+  }
+  .eli-box2 div{
+    background-color: #0e47a1;
+  }
+  .eli-box2 div h2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    
+    font-family: "Ysabeau Infant", sans-serif;
+  }
+  
+  .eli-box2 ul li{
+    color: #0e47a1;
+    font-size:  20px;
+    font-family: "Ysabeau Infant", sans-serif;
+    font-weight: bold;
+  }
+  
+  .eligible iframe{
+    box-shadow: 5px 5px 5px gray;
+  }
+
+  .box2{
+    
+    border-radius: 30px;
+    /* background:  linear-gradient(45deg, #ff00ff, #00ffff, #ffff00, #ff0000); */
+    /* background: linear-gradient(to right, #ff0000 0%, #00ff00 50%, #0000ff 100%); */
+    background: linear-gradient(to bottom,  #0e47a1 , rgba(68, 68, 247, 0.5));
+     border-top: 3px solid #9c28b1;
+     border-left: 3px solid #9c28b1;
+     box-shadow: 5px 5px 5px gray;
+
+  }
+  .box2 h1{
+    font-family: "Ysabeau Infant", sans-serif;
+    font-style: 25px !important;
+  }
+  .benefitsbox{
+    box-shadow: 3px 5px 5px gray;
+    border-radius: 10px;
+    
+  }
+  .benefitsbox h5{
+font-weight: bold;
+  }
+  .benefitsbox i{
+    color: green;
+    font-size: 30px;
+  }
+
+/* .benefit :nth-child(even){
+  background-color: #9fc2f8;
+} */
+.benefit1 > div:nth-child(odd) {
+  background-color: rgb(230, 255, 230);
+}
+
+.benefit1 > div:nth-child(even) {
+  background-color: rgb(148, 148, 250);
+}
+
+.benefit2 > div:nth-child(odd) {
+  background-color: rgb(148, 148, 250);
+}
+
+.benefit2 > div:nth-child(even) {
+  background-color: rgb(230, 255, 230);
+
+}
+.Textshadow{
+  text-shadow: 3px 0px 5px gray;
+  color: #0e47a1;
+}
+
+.carouselButton{
+  background-color: black !important;
+  border-radius: 50%;
+  margin: 10px;
+
+}
+.sixbenefits p{
+ font-size: 20px;
+ font-weight: bold;
+}
+@media(max-width: 768px){
+  .btn-primary{
+    font-size: 20px !important;
+  }
+}
+
+.sixbenefits i{
+  color: green;
+}
+.moreways .col-md-3{
+  margin-top: 20px;
+}
+.moreways .col-md-3 .card{
+   box-shadow: 2px 2px 5px gray;
+   text-align: center;
+   align-items: center;
+   border-radius: 15px;
+   border: transparent;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.moreways .firstbox{
+  background-color: #f9a600;
+  font-weight: bolder;
+  box-shadow: 2px 2px 5px gray;
+  text-align: center;
+  align-items: center;
+  border-radius: 15px;
+  border: transparent;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.firstbox i{
+  font-size: 50px;
+}
+@media(max-width:768px){
+  .firstbox i{
+    font-size: 50px;
+    display: none;
+  }
+ 
+}
+
+.thick-underline2 {
+  position: relative;
+
+}
+
+.thick-underline2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  width: 200px;
+  height: 4px;
+  background-color: #9c28b1;
+  transform: translateX(-50%);
+}
+
+
+
+
+
+ .popup {
+  display: none;
+ 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center !important;
+  border-radius: 20px;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%px;
+  background-color: white;
+
+  border-radius: 10px;
+  padding: 20px;
+}
+@media(max-width: 900px){
+  .popup{
+    width: 90%;
+    height: 40%;
+  }
+}
+
+.animated {
+
+  animation: fadeIn 1s ease-in-out;
+}
+
+.animated-sticker {
+ 
+}
+
+.webinar-info {
+  text-align: center;
+  font-size: 18px;
+}
+
+#closeButton {
+ 
+  padding: 10px 20px;
+  
+  color: black;
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
+  align-items: end;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 7px; 
+ 
+}
+
+
+@media(max-width: 768px){
+ .popupbtn{
+  font-size: 10px !important;
+ }
+}
+.popupbtn{
+  background-color: green!important;
+  font-size: 25px !important;
+  color: white !important ;
+  transition: 1s  !important;
+  border: 2px solid green !important;
+  justify-content: center;
+  box-shadow: 4px 4px 8px gray;
+}
+.popupbtn:hover{
+  border: 4px solid green!important;
+  color: green !important ;
+  transition: 1s !important ;
+  background: transparent !important;
+}  
+
+@media(max-width: 300px){
+ .bannergalaxy h2{
+  font-size: 15px;
+ }
+ .popup-content h4{
+  font-size: 15px;
+ }
+}
+
+
+
+
